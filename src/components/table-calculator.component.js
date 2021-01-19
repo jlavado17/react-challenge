@@ -79,7 +79,7 @@ function TableCalculator() {
         if(foreign < foreignShouldHave){
             needToReceive.push({
                 index: 3,
-                source: "Bonds",
+                source: "Foreign",
                 need: foreignShouldHave - foreign,
                 current_amount: foreign
             });
