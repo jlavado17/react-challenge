@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import riskData from "../data/data.json";
 import { useSelector } from 'react-redux';
 import { Doughnut } from 'react-chartjs-2';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 function RiskTable() {
   const [toggleButton, setToggleButton] = useState(true);
