@@ -1,0 +1,25 @@
+.custom-button {
+    margin-left: 43px;
+    margin-top: 35px;
+    opacity: 0.4;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: black;
+    height: 56px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #73d0ff;
+    cursor: pointer;
+}
+
+div {
+    display: block;
+}

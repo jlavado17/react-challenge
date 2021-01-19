@@ -1,0 +1,5 @@
+#risk-calculator-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

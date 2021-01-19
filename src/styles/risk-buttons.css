@@ -1,0 +1,35 @@
+#risk-selector {
+    display: inherit;
+    height: 60px;
+    width: 620px;
+    align-self: center;
+}
+
+#risk-selector ul {
+    display: inherit;
+    width: 620px;
+}
+
+#risk-selector li {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 62px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#risk-selector li:hover {
+    background-color: yellow;
+}
+
+div {
+    display: block;
+}

@@ -1,0 +1,23 @@
+#risk-chart-container {
+    position: relative;
+    display: flex;
+    width: 720px;
+    margin-top: 10px;
+}
+
+#toggle-graph {
+    display: flex;
+    position: relative;
+    margin-right: auto;
+}
+
+#toggle-graph {
+    height: 50px;
+    width: 55px;
+    border: 3px solid black;
+    border-radius: 5px;
+    /* right: 290px; */
+    /* bottom: 358px; */
+    cursor: pointer;
+    /* position: fixed; */
+}

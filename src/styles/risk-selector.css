@@ -1,0 +1,10 @@
+#risk-selector-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#risk-button-container {
+    display: flex;
+}

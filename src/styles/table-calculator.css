@@ -1,0 +1,47 @@
+#table-for-inputs thead {
+    font-weight: 600;
+    background: #f9f9f9;
+    height: 100%;
+    border-bottom: 1px solid #e9e9e9;
+}
+  
+ th, td {
+    padding: 1px;
+    position: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+td:nth-child(1) input {  
+    float: right;
+}
+  
+
+#table-for-inputs {      
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    border-collapse: collapse;
+    border: 1px solid #e9e9e9; 
+}
+
+#table-for-inputs input {
+    text-align: right;
+    height: 27px;
+    width: 95px;
+    font-size: 12px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#recommendations {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: left;
+    border-radius: 5px; 
+    font-size: 14px;
+}
