@@ -151,11 +151,27 @@ function TableCalculator() {
         document.querySelector('#foreign_new').value = foreignShouldHave;
         document.querySelector('#small_cap_new').value = smallCapShouldHave;
 
+        const elementsNew = document.querySelectorAll("[id$=_new]");
+
+        elementsNew.forEach(item => item.style.color = 'blue');
+
         document.querySelector('#bonds_difference').value = differences[0].toFixed(1);
         document.querySelector('#large_cap_difference').value = differences[1].toFixed(1);
         document.querySelector('#mid_cap_difference').value = differences[2].toFixed(1);
         document.querySelector('#foreign_difference').value = differences[3].toFixed(1);
         document.querySelector('#small_cap_difference').value = differences[4].toFixed(1);
+
+        const elementsDifference = document.querySelectorAll("[id$=_difference]");
+
+        elementsDifference.forEach(item => {
+            if(parseFloat(item.value) > 0 || parseFloat(item.value) === 0){
+                item.style.color = 'green';
+                if(parseFloat(item.value) !== 0) {
+                    item.value = '+' + item.value
+                }
+
+            } else item.style.color = 'red';
+        });
     }
 
     return (
